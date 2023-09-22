@@ -1,0 +1,123 @@
+html,body,#conteudo{
+  height: 100%;
+}
+
+body{
+	background: url(../img/capa.png), 
+	            url(../img/ruido.png),
+	            linear-gradient(40deg,#16704f,#1a940a);
+	background-attachment: fixed;
+	font-family: Helvetica, Arial,sans-serif;
+}
+
+
+#conteudo{
+    padding-top: 200px;
+}
+
+#conteudo2{
+	padding-top: 20px;
+	background: white;
+}
+#conteudo3{
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#conteudo h1{
+	text-align: center;
+}
+
+#conteudo p{
+	font-size: 45px;
+}
+
+#conteudo3 h2{
+   font-size: 30px;
+}
+
+@font-face{
+	font-family: kungfu;
+	src: url(../font2/Japanese2020.woff);
+}
+
+@font-face{
+	font-family: kungfu2;
+	src: url(../font2/Authentic-Signature.woff);
+}
+
+nav.trasp{
+    background-color: rgb(24,38,52,0.8);
+}
+
+
+footer{
+	padding: 50px 0px 20px 0px;
+	background: #000;
+	position: relative;
+}
+
+footer a{
+	text-decoration: none;
+}
+
+
+/*Extra small devices (portrait phones, less than 576px)
+ No media query for `xs` since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    #conteudo h1{
+	font-size: 2em;
+} 
+  #conteudo p{
+	font-size: 3em;
+}
+	   #conteudo3 h2 {
+	   	font-size: 2em;
+	   }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+
+    #conteudo h1{
+	font-size: 3em;
+}
+   #conteudo p{
+	font-size: 2em;
+}
+   #conteudo3 h2 {
+	   	font-size: 3em;
+	   }
+ }
+
+/*/ Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+
+	#conteudo h1{
+		font-size: 4em;
+	} 
+	#conteudo p{
+	font-size: 3em;
+}   
+     #conteudo3 h2 {
+	   	font-size: 4em;
+	   }
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	#conteudo h1{
+	font-size: 5em;
+	}
+
+	#conteudo p{
+	font-size: 4em;
+}   
+    #conteudo3 h2 {
+	   	font-size: 3em;
+	   } 
+ }
+
