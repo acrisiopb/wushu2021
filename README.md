@@ -7,6 +7,8 @@
     <img align="center" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Badge BootStrap">
 </div>
 
+</br>
+
 <div style="display: inline_block">
     <h6>Prévias</h6>
     <img align="center" src="https://github.com/acrisiopb/wushu2021/blob/main/Dev%20Art/1.png" alt="Prévia">
